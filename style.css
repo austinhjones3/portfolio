@@ -1,3 +1,5 @@
+/* set default styles */
+
 body {
     background-color: white;
     /* margin: 2% 25%; */
@@ -6,6 +8,9 @@ body {
     font-size: 1.25em;
     height: 2px;
 }
+
+
+/* size header and color header */
 
 header {
     /* text-align: left; */
@@ -16,11 +21,17 @@ header {
     border-bottom: 6px solid green;
 }
 
+
+/* align header h1 */
+
 h1 {
     text-align: left;
     font-size: 2em;
     display: inline;
 }
+
+
+/* h2 defaults */
 
 h2 {
     text-align: center;
@@ -28,15 +39,24 @@ h2 {
     font-size: 2em;
 }
 
+
+/* h3 defaults */
+
 h3 {
     text-align: center;
     font-weight: 800;
     font-size: 1.67em;
 }
 
+
+/* p defaults */
+
 p {
     font-size: 1.3em;
 }
+
+
+/* center and size image */
 
 img {
     display: block;
@@ -46,6 +66,9 @@ img {
     border: 3px solid black;
 }
 
+
+/* center text containers */
+
 div,
 article,
 main {
@@ -53,9 +76,15 @@ main {
     padding: 2%;
 }
 
+
+/* make li around the same size as p */
+
 li {
     font-size: 1.25em;
 }
+
+
+/* customize link status colors */
 
 a:link {
     color: green;
@@ -72,6 +101,9 @@ a:hover {
 a:active {
     color: darkgreen;
 }
+
+
+/* footer positioning and colors */
 
 footer {
     background-color: black;
